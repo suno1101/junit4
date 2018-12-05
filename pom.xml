@@ -473,6 +473,13 @@
 	        <version>2.7</version>
 	        <configuration><formats><format>xml</format></formats></configuration>
 	      </plugin>
+          
+          <!-- Jdpend plugin -->  
+	      <plugin>
+	        <groupId>org.codehaus.mojo</groupId>
+	        <artifactId>jdepend-maven-plugin</artifactId>
+	        <version>2.0</version>
+	      </plugin>
             
         </plugins>
     </reporting>
